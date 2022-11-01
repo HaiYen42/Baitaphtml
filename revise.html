@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{background-color: bisque;}
+    </style>
+</head>
+<body>
+    <form action="/index.html" method="post">
+        <label for="usename">FullName</label> 
+        <input type="text" name="usename" tabindex="1"> <br>
+        <label for="gender">Gender</label>
+        <input type="checkbox" name="gender" value="male"> Nam
+        <input type="checkbox" name="gender" value="female"> Nữ <br>
+        <label for="password" >Password</label>
+        <input type="password" name="password" tabindex="3"> <br>
+        <label for="email">Email</label>
+        <input type="text" name="email" tabindex="2" > <br>
+        <label for="education">Hệ giáo dục</label>
+        <select name="education" id="">
+        <option value="1">THPT</option>
+        <option value="2">Đại học</option> <br>
+        </select> <br>
+        <label for="note">Chú thích</label>
+        <textarea name="note" ></textarea> <br>
+        <label for="interest">Sở thích</label>
+        <input type="radio"> Xem phim
+        <input type="radio"> Du lịch <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
